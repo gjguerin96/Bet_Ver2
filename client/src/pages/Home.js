@@ -1,16 +1,20 @@
 import React from "react";
-import ProductList from "../components/ProductList";
-import CategoryMenu from "../components/CategoryMenu";
-import Cart from "../components/Cart";
+import Overview from "../components/Overview"
+import TabsContainer from "../components/TabsContainer"
+import Separator from "../components/Separator";
+
+
+//Logged In//
 
 const Home = () => {
   return (
     <div className="container">
-      <CategoryMenu />
-      <ProductList />
-      <Cart />
+      <Overview />
+      <Separator />
+      <TabsContainer />
     </div>
   );
-};
 
+}
 export default Home;
+
